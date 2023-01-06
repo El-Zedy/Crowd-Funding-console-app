@@ -51,9 +51,9 @@ def editProject(uId):
                  usrProject[5] = prjEndDate
                  print("\n== Project End Date Upadted successfully ==\n")
 
-            else:
-                print(f"\n== Error! Something Went Wrong Or Project Is Not Found. ==\n")
-                break
+        else:
+            print(f"\n== Error! Something Went Wrong Or Project Is Not Found. ==\n")
+            break
 
             editedProj = ":".join(usrProject)
             editedProj = f"{editedProj}\n"
